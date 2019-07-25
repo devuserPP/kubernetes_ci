@@ -1,4 +1,4 @@
-# Minikube Jenkins configuration
+# Deployment Jenkins to local kubernet cluster - settings and configuration
 
 Project with the setup to deploy Jenkins into Kubernates cluster on local PC
 <HR>
