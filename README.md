@@ -22,7 +22,7 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl/
 4. <code>$kubectl version</code>
 
 <H5>optional setting zsh</H5>
-1. <code>$source <(kubectl completion zsh)</code> # setup autocomplete in zsh into the current shell
+1. <code>$source <(kubectl completion zsh)</code> # setup autocomplete in zsh into the current shell<BR>
 2. <code>$echo "if [ $commands[kubectl] ]; then source <(kubectl completion zsh); fi" >> ~/.zshrc</code>add autocomplete permanently to your zsh shell
 
 <H4>Installation Helm</H4>
