@@ -35,9 +35,9 @@ https://github.com/helm/helm/releases
 5. <code>$rm -d -R  linux-amd64</code>
 
 <H4>Deploy Jenkins</H4>
-1. <code>$git clone git clone https://github.com/devuserPP/kubernetes_ci.git</code>
-2. <code>$kubectl create -f jenkins-namespace.yaml</code>
-3. <code>$kubectl create -f jenkins-volume.yaml</code>
-4. <code>$cd helm && helm init</code>
-5. <code>$helm install --name jenkins -f helm/jenkins-values.yaml stable/jenkins --namespace jenkins-project</code>
+1. <code>$git clone git clone https://github.com/devuserPP/kubernetes_ci.git</code><br>
+2. <code>$kubectl create -f jenkins-namespace.yaml</code><br>
+3. <code>$kubectl create -f jenkins-volume.yaml</code><br>
+4. <code>$cd helm && helm init</code><br>
+5. <code>$helm install --name jenkins -f helm/jenkins-values.yaml stable/jenkins --namespace jenkins-project</code><br>
 
